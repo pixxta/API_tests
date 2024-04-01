@@ -22,8 +22,18 @@ https://restful-api.dev/
 
 1. Откройте среду разработки для Python
 2. Установите библиотеки, перечисленные в файле `requirements.txt`, с помощью команды: 
+
+```shell
 pip install -r requirements.txt
+```
+
 3. Установите Allure
 4. Запустите тесты с помощью Pytest и генерируйте отчеты Allure:
+
+```shell
 pytest --alluredir=allure-results
+```
+
+```shell
 allure serve allure-results
+```
